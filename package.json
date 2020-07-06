@@ -1,0 +1,75 @@
+{
+  "name": "@folio/lti-courses",
+  "version": "1.0.0",
+  "description": "LTI Course Reserves Tool",
+  "main": "src/index.js",
+  "publishConfig": {
+    "registry": "https://repository.folio.org/repository/npm-folio/"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "start": "stripes serve",
+    "build": "stripes build --output ./output",
+    "lint": "eslint src test"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "prop-types": "^15.6.0",
+    "react-final-form": "^6.3.0",
+    "react-final-form-arrays": "^3.1.0"
+  },
+  "peerDependencies": {
+    "@folio/stripes": "^4.0.0",
+    "moment": "^2.22.2",
+    "react": "*",
+    "react-dom": "*",
+    "react-intl": "^4.5.1",
+    "react-redux": "*",
+    "react-router-dom": "^4.1.1",
+    "redux": "*"
+  },
+  "stripes": {
+    "actsAs": [
+      "settings"
+    ],
+    "displayName": "ui-lti-courses.meta.title",
+    "route": "/lti-courses",
+    "home": "/settings/lti-courses",
+    "okapiInterfaces": {
+      "configuration": "2.0 3.0 4.0 5.0"
+    },
+    "permissionSets": [
+      {
+        "permissionName": "module.lti-courses.enabled",
+        "displayName": "UI: ui-lti-courses module is enabled",
+        "subPermissions": [
+          "settings.enabled",
+          "configuration.entries.collection.get",
+          "setting.lti-courses.enabled"
+        ]
+      },
+      {
+        "permissionName": "ui-lti-courses.settings.view",
+        "displayName": "Settings (LTI Courses): View settings",
+        "visible": true,
+        "subPermissions": [
+          "module.lti-courses.enabled"
+        ]
+      },
+      {
+        "permissionName": "ui-lti-courses.settings.edit",
+        "displayName": "Settings (LTI Courses): Edit settings",
+        "visible": true,
+        "subPermissions": [
+          "ui-lti-courses.settings.view",
+          "configuration.all"
+        ]
+      }
+    ],
+    "icons": []
+  }
+}

@@ -1,8 +1,16 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { FormattedMessage } from 'react-intl';
 import { KeyValue } from '@folio/stripes/components';
 
-export default ({
+const propTypes = {
+  initialValues: PropTypes.shape({
+    value: PropTypes.string,
+  }),
+  parseInitialValues: PropTypes.func.isRequired,
+};
+
+const PlatformDetail = ({
   initialValues,
   parseInitialValues,
 }) => {
@@ -29,3 +37,7 @@ export default ({
     </>
   );
 };
+
+PlatformDetail.propTypes = propTypes;
+
+export default PlatformDetail;

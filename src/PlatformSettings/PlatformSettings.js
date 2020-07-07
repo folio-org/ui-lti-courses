@@ -43,6 +43,7 @@ class PlatformSettings extends React.Component {
           <EntryManager
             {...this.props}
             detailComponent={PlatformDetail}
+            enableDetailsActionMenu
             entryLabel={platform}
             entryList={entries}
             formComponent={PlatformForm}
@@ -68,6 +69,21 @@ class PlatformSettings extends React.Component {
               put: 'ui-lti-courses.settings.edit',
               post: 'ui-lti-courses.settings.edit',
               delete: 'ui-lti-courses.settings.edit',
+            }}
+            validate={entry => {
+              if (entry?.value?.issuer) {
+                const existingPlatform = entries.find(e => e.code === entry.value.issuer);
+
+                if (existingPlatform) {
+                  return {
+                    value: {
+                      issuer: <FormattedMessage id="ui-lti-courses.errors.issuersMustBeUnique" />
+                    }
+                  };
+                }
+              }
+
+              return null;
             }}
           />
         )}

@@ -1,12 +1,9 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import { Field } from 'redux-form';
-import { Pane, Paneset, TextField } from '@folio/stripes/components';
+import { TextField } from '@folio/stripes/components';
 
-export default ({
-  handleSubmit,
-  onSave,
-}) => (
+export default () => (
   <>
     <Field
       autoFocus

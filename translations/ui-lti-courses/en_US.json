@@ -9,5 +9,7 @@
   "platform.issuer": "Issuer",
   "platform.clientId": "Client ID",
   "platform.jwksUrl": "JWKS URL",
-  "platform.oidcAuthUrl": "OIDC Authentication URL"
+  "platform.oidcAuthUrl": "OIDC Authentication URL",
+
+  "errors.issuersMustBeUnique": "A platform with this issuer already exists. Issuers must be unique."
 }

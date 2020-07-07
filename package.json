@@ -13,9 +13,13 @@
   "scripts": {
     "start": "stripes serve",
     "build": "stripes build --output ./output",
-    "lint": "eslint src test"
+    "lint": "eslint src"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@folio/eslint-config-stripes": "^5.2.0",
+    "babel-eslint": "^9.0.0",
+    "eslint": "^6.2.1"
+  },
   "dependencies": {
     "lodash": "^4.17.11",
     "prop-types": "^15.6.0",

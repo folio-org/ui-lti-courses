@@ -1,0 +1,12 @@
+{
+  "meta.title": "LTI Course Reserves",
+  "settings.view": "Settings (LTI Courses): View settings",
+  "settings.edit": "Settings (LTI Courses): Edit settings",
+
+  "platform": "LTI Platform",
+
+  "platform.issuer": "Issuer",
+  "platform.clientId": "Client ID",
+  "platform.jwksUrl": "JWKS URL",
+  "platform.oidcAuthUrl": "OIDC Authentication URL"
+}

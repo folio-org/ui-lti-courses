@@ -1,0 +1,32 @@
+{
+  "id": "folio_lti-courses-1.0.1",
+  "name": "LTI Course Reserves Tool",
+  "permissionSets": [
+    {
+      "permissionName": "module.lti-courses.enabled",
+      "displayName": "UI: ui-lti-courses module is enabled",
+      "subPermissions": [
+        "settings.enabled",
+        "configuration.entries.collection.get",
+        "settings.lti-courses.enabled"
+      ]
+    },
+    {
+      "permissionName": "ui-lti-courses.settings.view",
+      "displayName": "Settings (LTI Courses): View settings",
+      "visible": true,
+      "subPermissions": [
+        "module.lti-courses.enabled"
+      ]
+    },
+    {
+      "permissionName": "ui-lti-courses.settings.edit",
+      "displayName": "Settings (LTI Courses): Edit settings",
+      "visible": true,
+      "subPermissions": [
+        "ui-lti-courses.settings.view",
+        "configuration.all"
+      ]
+    }
+  ]
+}

@@ -20,7 +20,8 @@
     "lodash": "^4.17.11",
     "prop-types": "^15.6.0",
     "react-final-form": "^6.3.0",
-    "react-final-form-arrays": "^3.1.0"
+    "react-final-form-arrays": "^3.1.0",
+    "redux-form": "^7.0.0"
   },
   "peerDependencies": {
     "@folio/stripes": "^4.0.0",
@@ -28,7 +29,6 @@
     "react": "*",
     "react-dom": "*",
     "react-intl": "^4.5.1",
-    "react-redux": "*",
     "react-router-dom": "^4.1.1",
     "redux": "*"
   },
@@ -49,7 +49,7 @@
         "subPermissions": [
           "settings.enabled",
           "configuration.entries.collection.get",
-          "setting.lti-courses.enabled"
+          "settings.lti-courses.enabled"
         ]
       },
       {

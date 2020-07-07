@@ -3,6 +3,7 @@
   "settings.view": "Settings (LTI Courses): View settings",
   "settings.edit": "Settings (LTI Courses): Edit settings",
 
+  "platforms": "LTI Platforms",
   "platform": "LTI Platform",
 
   "platform.issuer": "Issuer",

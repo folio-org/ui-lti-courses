@@ -30,5 +30,12 @@ export default () => (
       name="value.oidcAuthUrl"
       required
     />
+    <Field
+      component={TextField}
+      label={<FormattedMessage id="ui-lti-courses.platform.searchUrl" />}
+      name="value.searchUrl"
+      required
+    />
+    <FormattedMessage id="ui-lti-courses.platform.searchUrl.description" tagName="div" />
   </>
 );

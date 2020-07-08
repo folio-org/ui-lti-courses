@@ -74,7 +74,7 @@ class PlatformSettings extends React.Component {
               if (entry?.value?.issuer) {
                 const existingPlatform = entries.find(e => e.code === entry.value.issuer);
 
-                if (existingPlatform) {
+                if (existingPlatform && existingPlatform.id !== entry.id) {
                   return {
                     value: {
                       issuer: <FormattedMessage id="ui-lti-courses.errors.issuersMustBeUnique" />

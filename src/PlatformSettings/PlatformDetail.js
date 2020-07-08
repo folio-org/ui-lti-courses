@@ -34,6 +34,10 @@ const PlatformDetail = ({
         label={<FormattedMessage id="ui-lti-courses.platform.oidcAuthUrl" />}
         value={platform.oidcAuthUrl}
       />
+      <KeyValue
+        label={<FormattedMessage id="ui-lti-courses.platform.searchUrl" />}
+        value={platform.searchUrl}
+      />
     </>
   );
 };

@@ -8,8 +8,12 @@
 
   "platform.issuer": "Issuer",
   "platform.clientId": "Client ID",
+  "platform.cssUrl": "CSS URL",
+  "platform.cssUrl.description": "The tool renders its contents in an iframe, so parent styling is ignored. To style the tool's output, enter the URL of a CSS file here and the iframe will fetch and apply it in a <link>.",
   "platform.jwksUrl": "JWKS URL",
-  "platform.oidcAuthUrl": "OIDC Authentication URL",
+  "platform.oidcAuthUrl": "OIDC authentication URL",
+  "platform.searchUrl": "Public search URL",
+  "platform.searchUrl.description": "The public search URL will be used as for links when no electronic access is defined for the reserved item. Use the item's barcode in the link by using \"[BARCODE]\". Eg, https://find.mylibrary.edu?query=[BARCODE]",
 
   "errors.issuersMustBeUnique": "A platform with this issuer already exists. Issuers must be unique."
 }

@@ -55,7 +55,7 @@ class PlatformSettings extends React.Component {
               code: entry.value.issuer,
               value: JSON.stringify(entry.value)
             })}
-            paneTitle={platform}
+            paneTitle={<FormattedMessage id="ui-lti-courses.platforms" />}
             parentMutator={this.props.mutator}
             parseInitialValues={entry => {
               if (!entry || typeof entry.value !== 'string') return entry;
@@ -71,19 +71,29 @@ class PlatformSettings extends React.Component {
               delete: 'ui-lti-courses.settings.edit',
             }}
             validate={entry => {
+              const errors = {};
+
+              [
+                'clientId',
+                'issuer',
+                'jwksUrl',
+                'oidcAuthUrl',
+                'searchUrl'
+              ].forEach(field => {
+                if (!entry?.value?.[field]) {
+                  errors[field] = <FormattedMessage id="stripes-core.label.missingRequiredField" />;
+                }
+              });
+
               if (entry?.value?.issuer) {
                 const existingPlatform = entries.find(e => e.code === entry.value.issuer);
 
                 if (existingPlatform && existingPlatform.id !== entry.id) {
-                  return {
-                    value: {
-                      issuer: <FormattedMessage id="ui-lti-courses.errors.issuersMustBeUnique" />
-                    }
-                  };
+                  errors.issuer = <FormattedMessage id="ui-lti-courses.errors.issuersMustBeUnique" />;
                 }
               }
 
-              return null;
+              return Object.keys(errors).length ? { value: errors } : null;
             }}
           />
         )}

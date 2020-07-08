@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { FormattedMessage } from 'react-intl';
-import { KeyValue } from '@folio/stripes/components';
+import { KeyValue, NoValue } from '@folio/stripes/components';
 
 const propTypes = {
   initialValues: PropTypes.shape({
@@ -37,6 +37,10 @@ const PlatformDetail = ({
       <KeyValue
         label={<FormattedMessage id="ui-lti-courses.platform.searchUrl" />}
         value={platform.searchUrl}
+      />
+      <KeyValue
+        label={<FormattedMessage id="ui-lti-courses.platform.cssUrl" />}
+        value={platform.cssUrl ?? <NoValue />}
       />
     </>
   );

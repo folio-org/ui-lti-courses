@@ -1,10 +1,10 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import { Field } from 'redux-form';
-import { TextField } from '@folio/stripes/components';
+import { Layout, TextField } from '@folio/stripes/components';
 
 export default () => (
-  <>
+  <Layout className="padding-bottom-gutter">
     <Field
       autoFocus
       component={TextField}
@@ -37,5 +37,12 @@ export default () => (
       required
     />
     <FormattedMessage id="ui-lti-courses.platform.searchUrl.description" tagName="div" />
-  </>
+    <Field
+      component={TextField}
+      label={<FormattedMessage id="ui-lti-courses.platform.cssUrl" />}
+      name="value.cssUrl"
+      required
+    />
+    <FormattedMessage id="ui-lti-courses.platform.cssUrl.description" tagName="div" />
+  </Layout>
 );

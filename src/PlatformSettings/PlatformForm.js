@@ -36,13 +36,16 @@ export default () => (
       name="value.searchUrl"
       required
     />
-    <FormattedMessage id="ui-lti-courses.platform.searchUrl.description" tagName="div" />
+    <Layout className="padding-bottom-gutter">
+      <FormattedMessage id="ui-lti-courses.platform.searchUrl.description" />
+    </Layout>
     <Field
       component={TextField}
       label={<FormattedMessage id="ui-lti-courses.platform.cssUrl" />}
       name="value.cssUrl"
-      required
     />
-    <FormattedMessage id="ui-lti-courses.platform.cssUrl.description" tagName="div" />
+    <Layout className="padding-bottom-gutter">
+      <FormattedMessage id="ui-lti-courses.platform.cssUrl.description" />
+    </Layout>
   </Layout>
 );

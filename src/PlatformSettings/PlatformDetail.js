@@ -42,6 +42,10 @@ const PlatformDetail = ({
         label={<FormattedMessage id="ui-lti-courses.platform.cssUrl" />}
         value={platform.cssUrl ?? <NoValue />}
       />
+      <KeyValue
+        label={<FormattedMessage id="ui-lti-courses.platform.noReservesMessage" />}
+        value={platform.noReservesMessage ?? <NoValue />}
+      />
     </>
   );
 };

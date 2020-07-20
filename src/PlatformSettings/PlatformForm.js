@@ -18,18 +18,27 @@ export default () => (
       name="value.clientId"
       required
     />
+    <Layout className="padding-bottom-gutter">
+      <FormattedMessage id="ui-lti-courses.platform.clientId.description" />
+    </Layout>
     <Field
       component={TextField}
       label={<FormattedMessage id="ui-lti-courses.platform.jwksUrl" />}
       name="value.jwksUrl"
       required
     />
+    <Layout className="padding-bottom-gutter">
+      <FormattedMessage id="ui-lti-courses.platform.jwksUrl.description" />
+    </Layout>
     <Field
       component={TextField}
       label={<FormattedMessage id="ui-lti-courses.platform.oidcAuthUrl" />}
       name="value.oidcAuthUrl"
       required
     />
+    <Layout className="padding-bottom-gutter">
+      <FormattedMessage id="ui-lti-courses.platform.oidcAuthUrl.description" />
+    </Layout>
     <Field
       component={TextField}
       label={<FormattedMessage id="ui-lti-courses.platform.searchUrl" />}
@@ -43,6 +52,14 @@ export default () => (
       component={TextField}
       label={<FormattedMessage id="ui-lti-courses.platform.cssUrl" />}
       name="value.cssUrl"
+    />
+    <Layout className="padding-bottom-gutter">
+      <FormattedMessage id="ui-lti-courses.platform.cssUrl.description" />
+    </Layout>
+    <Field
+      component={TextField}
+      label={<FormattedMessage id="ui-lti-courses.platform.noReservesMessage" />}
+      name="value.noReservesMessage"
     />
     <Layout className="padding-bottom-gutter">
       <FormattedMessage id="ui-lti-courses.platform.cssUrl.description" />

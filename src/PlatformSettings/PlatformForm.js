@@ -69,7 +69,7 @@ export default () => (
       name="value.noReservesMessage"
     />
     <Layout className="padding-bottom-gutter">
-      <FormattedMessage id="ui-lti-courses.platform.cssUrl.description" />
+      <FormattedMessage id="ui-lti-courses.platform.noReservesMessage.description" />
     </Layout>
   </Layout>
 );

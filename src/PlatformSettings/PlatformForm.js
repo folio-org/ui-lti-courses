@@ -46,7 +46,14 @@ export default () => (
       required
     />
     <Layout className="padding-bottom-gutter">
-      <FormattedMessage id="ui-lti-courses.platform.searchUrl.description" />
+      <FormattedMessage
+        id="ui-lti-courses.platform.searchUrl.description"
+        values={{
+          div: (...chunks) => <div>{chunks}</div>,
+          ul: (...chunks) => <ul>{React.Children.toArray(chunks)}</ul>, // https://github.com/formatjs/formatjs/issues/1467
+          li: (...chunks) => <li>{chunks}</li>,
+        }}
+      />
     </Layout>
     <Field
       component={TextField}

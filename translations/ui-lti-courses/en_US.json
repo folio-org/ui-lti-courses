@@ -18,7 +18,7 @@
   "platform.oidcAuthUrl": "OIDC authentication URL",
   "platform.oidcAuthUrl.description": "Ensure that this URL is publicly accessible. Unless they are properly configured, some LMSs provide a URL that doesn't account for things like reverse proxies.",
   "platform.searchUrl": "Public search URL",
-  "platform.searchUrl.description": "The public search URL will be used for creating links when no electronic access is defined for the reserved item. Use the item's barcode in the link by using \"[BARCODE]\". Eg, https://find.mylibrary.edu?query=[BARCODE]",
+  "platform.searchUrl.description": "<div>The public search URL will be used for creating links when no electronic access is defined for the reserved item. Some variables can be inserted into the URL, e.g., https://find.mylibrary.edu?query=[BARCODE]. The supported variables are:</div><ul><li>[BARCODE] - The item's barcode</li><li>[INSTANCE_HRID] - The instance's HRID</li></ul>",
 
   "errors.issuersMustBeUnique": "A platform with this issuer already exists. Issuers must be unique."
 }

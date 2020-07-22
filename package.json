@@ -1,7 +1,7 @@
 {
   "name": "@folio/lti-courses",
   "version": "1.0.0",
-  "description": "LTI Course Reserves Tool",
+  "description": "Courses LTI Tool",
   "main": "src/index.js",
   "publishConfig": {
     "registry": "https://repository.folio.org/repository/npm-folio/"

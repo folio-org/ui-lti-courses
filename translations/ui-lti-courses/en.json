@@ -1,7 +1,7 @@
 {
-  "meta.title": "LTI Course Reserves",
-  "settings.view": "Settings (LTI Courses): View settings",
-  "settings.edit": "Settings (LTI Courses): Edit settings",
+  "meta.title": "Courses LTI Tool",
+  "settings.view": "Settings (Courses LTI Tool): View settings",
+  "settings.edit": "Settings (Courses LTI Tool): Edit settings",
 
   "platforms": "LTI Platforms",
   "platform": "LTI Platform",

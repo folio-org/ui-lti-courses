@@ -7,7 +7,7 @@ Version 2.0. See the file "[LICENSE](LICENSE)" for more information.
 
 ## Overview
 
-This is a Folio Stripes settings module that provides a front-end for configuring various things for the [edge-lti-courses Edge module](https://github.com/doytch/edge-lti-courses) that uses the [LTI 1.3 standard](https://www.imsglobal.org/spec/lti/v1p3/) to connect Learning Management Systems (LMSs) such as Sakai, Canvas, or Blackboard to Folio's Course Reserves app.
+My dummy branch
 
 ## Usage
 

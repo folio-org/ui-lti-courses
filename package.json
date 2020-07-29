@@ -28,13 +28,9 @@
     "redux-form": "^7.0.0"
   },
   "peerDependencies": {
-    "@folio/stripes": "^4.0.0",
-    "moment": "^2.22.2",
+    "@folio/stripes": "^5.0.0",
     "react": "*",
-    "react-dom": "*",
-    "react-intl": "^4.5.1",
-    "react-router-dom": "^4.1.1",
-    "redux": "*"
+    "react-intl": "^4.5.1"
   },
   "stripes": {
     "actsAs": [

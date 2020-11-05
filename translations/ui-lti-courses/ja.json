@@ -2,7 +2,7 @@
     "meta.title": "Courses LTI Tool",
     "settings.view": "Settings (Courses LTI Tool): View settings",
     "settings.edit": "Settings (Courses LTI Tool): Edit settings",
-    "platforms": "LTI Platforms",
+    "platforms": "LTIプラットフォーム",
     "platform": "LTI Platform",
     "platform.issuer": "Issuer",
     "platform.clientId": "Client ID",

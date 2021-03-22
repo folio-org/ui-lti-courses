@@ -1,5 +1,5 @@
 {
-    "meta.title": "Courses LTI Tool",
+    "meta.title": "Cours Outil LTI",
     "settings.view": "Settings (Courses LTI Tool): View settings",
     "settings.edit": "Settings (Courses LTI Tool): Edit settings",
     "platforms": "Plates-formes LTI",
@@ -7,7 +7,7 @@
     "platform.issuer": "Émetteur",
     "platform.clientId": "Identifiant du client",
     "platform.clientId.description": "After you register an LTI 1.3 Tool with a Platform/LMS (eg, from within Sakai), the Platform usually generates a Client ID for the Tool. Insert that here. If your LMS allows you to configure the Client ID, enter the same value here that you enter there.",
-    "platform.cssUrl": "CSS URL",
+    "platform.cssUrl": "URL CSS",
     "platform.cssUrl.description": "The tool renders its contents in an iframe, so parent styling is ignored. To style the tool's output, enter the URL of a CSS file here and the iframe will fetch and apply it in a <link>.",
     "platform.jwksUrl": "JWKS URL",
     "platform.jwksUrl.description": "Ensure that this URL is publicly accessible. Unless they are properly configured, some LMSs provide a URL that doesn't account for things like reverse proxies.",

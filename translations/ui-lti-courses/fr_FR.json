@@ -1,6 +1,6 @@
 {
     "meta.title": "Cours Outil LTI",
-    "settings.view": "Settings (Courses LTI Tool): View settings",
+    "settings.view": "Paramètres (cours: outil  LTI): afficher les paramètres",
     "settings.edit": "Settings (Courses LTI Tool): Edit settings",
     "platforms": "Plates-formes LTI",
     "platform": "Plateforme LTI",
@@ -9,13 +9,13 @@
     "platform.clientId.description": "After you register an LTI 1.3 Tool with a Platform/LMS (eg, from within Sakai), the Platform usually generates a Client ID for the Tool. Insert that here. If your LMS allows you to configure the Client ID, enter the same value here that you enter there.",
     "platform.cssUrl": "URL CSS",
     "platform.cssUrl.description": "The tool renders its contents in an iframe, so parent styling is ignored. To style the tool's output, enter the URL of a CSS file here and the iframe will fetch and apply it in a <link>.",
-    "platform.jwksUrl": "JWKS URL",
+    "platform.jwksUrl": "URL JWKS",
     "platform.jwksUrl.description": "Ensure that this URL is publicly accessible. Unless they are properly configured, some LMSs provide a URL that doesn't account for things like reverse proxies.",
-    "platform.noReservesMessage": "\"No reserves\" message",
-    "platform.noReservesMessage.description": "When a course has no current reserves, this message will be displayed.",
-    "platform.oidcAuthUrl": "OIDC authentication URL",
+    "platform.noReservesMessage": "Pas de réservation (?) - Message",
+    "platform.noReservesMessage.description": "Lorsqu'un cours n'a pas actuellement de réservations(?), ce message sera affiché.",
+    "platform.oidcAuthUrl": "URL d'authentification OIDC",
     "platform.oidcAuthUrl.description": "Ensure that this URL is publicly accessible. Unless they are properly configured, some LMSs provide a URL that doesn't account for things like reverse proxies.",
     "platform.searchUrl": "URL de recherche publique",
     "platform.searchUrl.description": "<div>The public search URL will be used for creating links when no electronic access is defined for the reserved item. Some variables can be inserted into the URL, e.g., https://find.mylibrary.edu?query=[BARCODE]. The supported variables are:</div><ul><li>[BARCODE] - The item's barcode</li><li>[INSTANCE_HRID] - The instance's HRID</li></ul>",
-    "errors.issuersMustBeUnique": "A platform with this issuer already exists. Issuers must be unique."
+    "errors.issuersMustBeUnique": "Une plateforme avec cet émetteur existe déjà. Les émetteurs doivent être uniques."
 }

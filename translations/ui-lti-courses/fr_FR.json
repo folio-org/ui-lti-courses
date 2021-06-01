@@ -10,12 +10,16 @@
     "platform.cssUrl": "URL CSS",
     "platform.cssUrl.description": "The tool renders its contents in an iframe, so parent styling is ignored. To style the tool's output, enter the URL of a CSS file here and the iframe will fetch and apply it in a <link>.",
     "platform.jwksUrl": "URL JWKS",
-    "platform.jwksUrl.description": "Ensure that this URL is publicly accessible. Unless they are properly configured, some LMSs provide a URL that doesn't account for things like reverse proxies.",
+    "platform.jwksUrl.description": "Assurez-vous que cette URL est accessible au public. À moins qu'ils ne soient correctement configurés, certains LMS fournissent une URL qui ne tient pas compte de certains éléments comme les reverse-proxies.",
     "platform.noReservesMessage": "Pas de réservation (?) - Message",
     "platform.noReservesMessage.description": "Lorsqu'un cours n'a pas actuellement de réservations(?), ce message sera affiché.",
     "platform.oidcAuthUrl": "URL d'authentification OIDC",
-    "platform.oidcAuthUrl.description": "Ensure that this URL is publicly accessible. Unless they are properly configured, some LMSs provide a URL that doesn't account for things like reverse proxies.",
+    "platform.oidcAuthUrl.description": "Assurez-vous que cette URL est accessible au public. À moins qu'ils ne soient correctement configurés, certains LMS fournissent une URL qui ne tient pas compte de certains éléments comme les reverse-proxies.",
     "platform.searchUrl": "URL de recherche publique",
     "platform.searchUrl.description": "<div>The public search URL will be used for creating links when no electronic access is defined for the reserved item. Some variables can be inserted into the URL, e.g., https://find.mylibrary.edu?query=[BARCODE]. The supported variables are:</div><ul><li>[BARCODE] - The item's barcode</li><li>[INSTANCE_HRID] - The instance's HRID</li></ul>",
-    "errors.issuersMustBeUnique": "Une plateforme avec cet émetteur existe déjà. Les émetteurs doivent être uniques."
+    "errors.issuersMustBeUnique": "Une plateforme avec cet émetteur existe déjà. Les émetteurs doivent être uniques.",
+    "platform.boxDirectDownload": "Transform reserve URLs including \"box.com\" to direct-download using the Box API",
+    "platform.boxDirectDownload.description": "When an item has Electronic Access and the URL contains \"box.com\", the LTI edge module can rewrite the link so that it transparently offers the item for download rather than linking the user to box.com. Note that the edge module must have been launched with a valid Access Token for the Box API, see the documentation for the edge-lti-courses module for more details.",
+    "yes": "Yes",
+    "no": "No"
 }

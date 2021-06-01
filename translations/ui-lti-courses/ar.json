@@ -17,5 +17,9 @@
     "platform.oidcAuthUrl.description": "تأكد من أن عنوان URL هذا متاح للجمهور. ما لم يتم تهيئتها بشكل صحيح، تقوم بعض أنظمة إدارة المكتبات بتوفير عنوان URL لا يراعي أشياء مثل البروكسي العكسي.",
     "platform.searchUrl": "عنوان URL للبحث العام",
     "platform.searchUrl.description": "<div>سيتم استخدام عنوان URL للبحث العام إنشاء روابط في حالة عدم تعريف وصول إلكتروني للمادة المحجوزة. يمكن إدخال بعض المتغيرات إلى عنوان الURL، مثل: https://find.mylibrary.edu?query=[BARCODE]. المتغيرات المدعومة هي:</div><ul><li>[BARCODE] - باركود المادة</li><li> [INSTANCE_HRID] - رقم التعريف القابل للقراءة بشرياً للوعاء</li></ul>",
-    "errors.issuersMustBeUnique": "توجد منصة بجهة الإصدار هذه بالفعل. يجب أن تكون جهات الإصدار فريدة."
+    "errors.issuersMustBeUnique": "توجد منصة بجهة الإصدار هذه بالفعل. يجب أن تكون جهات الإصدار فريدة.",
+    "platform.boxDirectDownload": "Transform reserve URLs including \"box.com\" to direct-download using the Box API",
+    "platform.boxDirectDownload.description": "When an item has Electronic Access and the URL contains \"box.com\", the LTI edge module can rewrite the link so that it transparently offers the item for download rather than linking the user to box.com. Note that the edge module must have been launched with a valid Access Token for the Box API, see the documentation for the edge-lti-courses module for more details.",
+    "yes": "Yes",
+    "no": "No"
 }

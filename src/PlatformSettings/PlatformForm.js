@@ -1,7 +1,7 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import { Field } from 'redux-form';
-import { Layout, TextField } from '@folio/stripes/components';
+import { Checkbox, Layout, TextField } from '@folio/stripes/components';
 
 export default () => (
   <Layout className="padding-bottom-gutter">
@@ -70,6 +70,15 @@ export default () => (
     />
     <Layout className="padding-bottom-gutter">
       <FormattedMessage id="ui-lti-courses.platform.noReservesMessage.description" />
+    </Layout>
+    <Field
+      component={Checkbox}
+      label={<FormattedMessage id="ui-lti-courses.platform.boxDirectDownload" />}
+      name="value.boxDirectDownload"
+      type="checkbox"
+    />
+    <Layout className="padding-bottom-gutter">
+      <FormattedMessage id="ui-lti-courses.platform.boxDirectDownload.description" />
     </Layout>
   </Layout>
 );

@@ -17,5 +17,9 @@
     "platform.oidcAuthUrl.description": "Ensure that this URL is publicly accessible. Unless they are properly configured, some LMSs provide a URL that doesn't account for things like reverse proxies.",
     "platform.searchUrl": "Public search URL",
     "platform.searchUrl.description": "<div> L'URL di ricerca pubblico verrà utilizzato per creare collegamenti quando non è definito alcun accesso elettronico per l'elemento riservato. Alcune variabili possono essere inserite nell'URL, ad esempio, https://find.mylibrary.edu?query=[BARCODE]. Le variabili supportate sono: </div> <ul> <li> [BARCODE] - Il barcode dell'item </li> <li> [INSTANCE_HRID] - L'HRID dell'istanza </li> </ul>",
-    "errors.issuersMustBeUnique": "A platform with this issuer already exists. Issuers must be unique."
+    "errors.issuersMustBeUnique": "A platform with this issuer already exists. Issuers must be unique.",
+    "platform.boxDirectDownload": "Transform reserve URLs including \"box.com\" to direct-download using the Box API",
+    "platform.boxDirectDownload.description": "When an item has Electronic Access and the URL contains \"box.com\", the LTI edge module can rewrite the link so that it transparently offers the item for download rather than linking the user to box.com. Note that the edge module must have been launched with a valid Access Token for the Box API, see the documentation for the edge-lti-courses module for more details.",
+    "yes": "Yes",
+    "no": "No"
 }

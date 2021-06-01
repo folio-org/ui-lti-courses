@@ -17,5 +17,9 @@
     "platform.oidcAuthUrl.description": "Upewnij się, że ten adres URL jest publicznie dostępny. Jeśli nie są odpowiednio skonfigurowane, niektóre LMSy podają adres URL, który nie uwzględnia takich rzeczy jak odwrotne serwery proxy.",
     "platform.searchUrl": "Publiczny adres URL wyszukiwania",
     "platform.searchUrl.description": "<div>Adres URL wyszukiwania publicznego będzie wykorzystywany do tworzenia linków, gdy dla danej pozycji nie jest zdefiniowany dostęp elektroniczny. W adresie URL można wstawić pewne zmienne, np. https://find.mylibrary.edu?query=[BARCODE]. Obsługiwane zmienne to: </div><ul><li>[BARCODE] - kod kreskowy pozycji.</li><li>INSTANCE_HRID] - HRID instancji.</li></ul>",
-    "errors.issuersMustBeUnique": "Platforma z tym wydawcą już istnieje. Wystawcy muszą być unikalni."
+    "errors.issuersMustBeUnique": "Platforma z tym wydawcą już istnieje. Wystawcy muszą być unikalni.",
+    "platform.boxDirectDownload": "Transform reserve URLs including \"box.com\" to direct-download using the Box API",
+    "platform.boxDirectDownload.description": "When an item has Electronic Access and the URL contains \"box.com\", the LTI edge module can rewrite the link so that it transparently offers the item for download rather than linking the user to box.com. Note that the edge module must have been launched with a valid Access Token for the Box API, see the documentation for the edge-lti-courses module for more details.",
+    "yes": "Yes",
+    "no": "No"
 }

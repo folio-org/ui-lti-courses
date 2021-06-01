@@ -17,5 +17,9 @@
     "platform.oidcAuthUrl.description": "确保此URL可公共访问。除非正确配置，否则某些LMS所提供的URL不会考虑反向代理之类的问题。",
     "platform.searchUrl": "公共搜索URL",
     "platform.searchUrl.description": "<div>如果未为教参单件定义电子访问，则将使用公共搜索URL创建链接。可以将一些变量插入URL，例如https://find.mylibrary.edu?query=[BARCODE]。支持的变量为： </div> <ul> <li> [BARCODE]-单件的条码</li> <li> [INSTANCE_HRID]-实例的HRID </li> </ul>",
-    "errors.issuersMustBeUnique": "具有该发行者的平台已经存在。发行者必须是唯一的。"
+    "errors.issuersMustBeUnique": "具有该发行者的平台已经存在。发行者必须是唯一的。",
+    "platform.boxDirectDownload": "Transform reserve URLs including \"box.com\" to direct-download using the Box API",
+    "platform.boxDirectDownload.description": "When an item has Electronic Access and the URL contains \"box.com\", the LTI edge module can rewrite the link so that it transparently offers the item for download rather than linking the user to box.com. Note that the edge module must have been launched with a valid Access Token for the Box API, see the documentation for the edge-lti-courses module for more details.",
+    "yes": "Yes",
+    "no": "No"
 }

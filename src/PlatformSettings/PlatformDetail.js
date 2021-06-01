@@ -46,6 +46,10 @@ const PlatformDetail = ({
         label={<FormattedMessage id="ui-lti-courses.platform.noReservesMessage" />}
         value={platform.noReservesMessage ?? <NoValue />}
       />
+      <KeyValue
+        label={<FormattedMessage id="ui-lti-courses.platform.boxDirectDownload" />}
+        value={platform.boxDirectDownload ? <FormattedMessage id="ui-lti-courses.yes" /> : <FormattedMessage id="ui-lti-courses.no" /> }
+      />
     </>
   );
 };

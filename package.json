@@ -1,6 +1,6 @@
 {
   "name": "@folio/lti-courses",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Courses LTI Tool",
   "main": "src/index.js",
   "publishConfig": {
@@ -17,20 +17,17 @@
   },
   "devDependencies": {
     "@folio/eslint-config-stripes": "^5.2.0",
-    "babel-eslint": "^9.0.0",
+    "babel-eslint": "^10.0.0",
     "eslint": "^6.2.1"
   },
   "dependencies": {
-    "lodash": "^4.17.11",
     "prop-types": "^15.6.0",
-    "react-final-form": "^6.3.0",
-    "react-final-form-arrays": "^3.1.0",
-    "redux-form": "^7.0.0"
+    "redux-form": "^8.3.0"
   },
   "peerDependencies": {
-    "@folio/stripes": "^5.0.0",
+    "@folio/stripes": "^6.0.0",
     "react": "*",
-    "react-intl": "^4.5.1"
+    "react-intl": "^5.7.0"
   },
   "stripes": {
     "actsAs": [

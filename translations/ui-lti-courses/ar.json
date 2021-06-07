@@ -18,8 +18,8 @@
     "platform.searchUrl": "عنوان URL للبحث العام",
     "platform.searchUrl.description": "<div>سيتم استخدام عنوان URL للبحث العام إنشاء روابط في حالة عدم تعريف وصول إلكتروني للمادة المحجوزة. يمكن إدخال بعض المتغيرات إلى عنوان الURL، مثل: https://find.mylibrary.edu?query=[BARCODE]. المتغيرات المدعومة هي:</div><ul><li>[BARCODE] - باركود المادة</li><li> [INSTANCE_HRID] - رقم التعريف القابل للقراءة بشرياً للوعاء</li></ul>",
     "errors.issuersMustBeUnique": "توجد منصة بجهة الإصدار هذه بالفعل. يجب أن تكون جهات الإصدار فريدة.",
-    "platform.boxDirectDownload": "Transform reserve URLs including \"box.com\" to direct-download using the Box API",
-    "platform.boxDirectDownload.description": "When an item has Electronic Access and the URL contains \"box.com\", the LTI edge module can rewrite the link so that it transparently offers the item for download rather than linking the user to box.com. Note that the edge module must have been launched with a valid Access Token for the Box API, see the documentation for the edge-lti-courses module for more details.",
-    "yes": "Yes",
-    "no": "No"
+    "platform.boxDirectDownload": "تحويل عناوين URL الاحتياطية بما في ذلك \"box.com\" إلى التنزيل المباشر باستخدام Box API",
+    "platform.boxDirectDownload.description": "حين يكون لمادة وصولاً إلكترونياً ويحتوي عنوان URL على \"box.com\"، يمكن لوحدة LTI edge إعادة كتابة الرابط بحيث يعرض المادة بشفافية للتنزيل بدلاً من ربط المستخدم بـ box.com. لاحظ أنه يجب إطلاق وحدة الحافة برمز وصول صالح لوحدة برمجة تطبيقات Box، انظر التوثيق الخاص بوحدة edge-lti-courses للمزيد من التفاصيل.",
+    "yes": "نعم",
+    "no": "لا"
 }

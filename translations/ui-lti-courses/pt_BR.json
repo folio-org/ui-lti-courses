@@ -18,8 +18,8 @@
     "platform.searchUrl": "URL de pesquisa pública",
     "platform.searchUrl.description": "<div>A URL de pesquisa pública será usado para criar links quando nenhum acesso eletrônico estiver definido para o item reservado. Algumas variáveis podem ser inseridas na URL, por exemplo, https://find.mylibrary.edu?query=[BARCODE]. As variáveis suportadas são:</div> <ul><li>[BARCODE] - O código de barras do item</li> <li>[INSTANCE_HRID] - O HRID da instância</li></ul>",
     "errors.issuersMustBeUnique": "Já existe uma plataforma com este emissor. Os emissores devem ser únicos.",
-    "platform.boxDirectDownload": "Transform reserve URLs including \"box.com\" to direct-download using the Box API",
-    "platform.boxDirectDownload.description": "When an item has Electronic Access and the URL contains \"box.com\", the LTI edge module can rewrite the link so that it transparently offers the item for download rather than linking the user to box.com. Note that the edge module must have been launched with a valid Access Token for the Box API, see the documentation for the edge-lti-courses module for more details.",
-    "yes": "Yes",
-    "no": "No"
+    "platform.boxDirectDownload": "Transformar URLs de reserva, incluindo \"box.com\", para carregar diretamente utilizando a API da Box",
+    "platform.boxDirectDownload.description": "Quando um item tem acesso eletrônico e a URL contém \"box.com\", o módulo edge LTI pode reescrever o link para que ele ofereça transparentemente o item para download em vez de vincular o usuário ao box.com. Observe que o módulo de borda deve ter sido lançado com um Token de Acesso válido para a API da Box, consulte a documentação do módulo de borda-lti-cursos para obter mais detalhes.",
+    "yes": "Sim",
+    "no": "Não"
 }

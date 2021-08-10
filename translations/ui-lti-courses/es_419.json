@@ -18,8 +18,8 @@
     "platform.searchUrl": "URL pública de búsqueda",
     "platform.searchUrl.description": "<div>The public search URL will be used for creating links when no electronic access is defined for the reserved item. Some variables can be inserted into the URL, e.g., https://find.mylibrary.edu?query=[BARCODE]. The supported variables are:</div><ul><li>[BARCODE] - The item's barcode</li><li>[INSTANCE_HRID] - The instance's HRID</li></ul>",
     "errors.issuersMustBeUnique": "A platform with this issuer already exists. Issuers must be unique.",
-    "platform.boxDirectDownload": "Transform reserve URLs including \"box.com\" to direct-download using the Box API",
-    "platform.boxDirectDownload.description": "When an item has Electronic Access and the URL contains \"box.com\", the LTI edge module can rewrite the link so that it transparently offers the item for download rather than linking the user to box.com. Note that the edge module must have been launched with a valid Access Token for the Box API, see the documentation for the edge-lti-courses module for more details.",
+    "platform.boxDirectDownload": "Transformar las URL de reserva, incluyendo \"box.com\", a descarga directa usando la API de Box.",
+    "platform.boxDirectDownload.description": "Cuando un elemento tiene acceso electrónico y la URL contiene \"box.com\", el módulo de borde de LTI puede reescribir el enlace para que ofrezca de manera transparente el elemento para descargar en lugar de vincular al usuario a box.com. Tenga en cuenta que el módulo de borde debe haberse iniciado con un token de acceso válido para la API de Box; consulte la documentación del módulo de borde-lti-cursos para obtener más detalles.",
     "yes": "Sí",
     "no": "No"
 }

@@ -1,7 +1,7 @@
 {
     "meta.title": "Courses LTI Tool",
-    "settings.view": "Settings (Courses LTI Tool): View settings",
-    "settings.edit": "Settings (Courses LTI Tool): Edit settings",
+    "settings.view": "Einstellungen (Courses LTI Tool): Einstellungen anzeigen",
+    "settings.edit": "Einstellungen (Courses LTI Tool): Einstellungen anzeigen und bearbeiten",
     "platforms": "LTI Platforms",
     "platform": "LTI Platform",
     "platform.issuer": "Issuer",

@@ -8,7 +8,7 @@
     "platform.clientId": "ID klienta",
     "platform.clientId.description": "Po zarejestrowaniu narzędzia LTI 1.3 Tool w Platformie/LMS (np. z poziomu Sakai), Platforma zazwyczaj generuje identyfikator klienta dla narzędzia. Wstaw go tutaj. Jeśli Twój LMS pozwala Ci na konfigurację Client ID, wpisz tutaj tę samą wartość, którą wpisujesz tam.",
     "platform.cssUrl": "CSS URL",
-    "platform.cssUrl.description": "Narzędzie renderuje swoją zawartość w ramce iframe, więc stylizacja rodzica jest ignorowana. Aby stylizować dane wyjściowe narzędzia, wpisz tutaj adres URL pliku CSS, a ramka iframe pobierze i zastosuje go w pliku <link>.</link>",
+    "platform.cssUrl.description": "Narzędzie renderuje swoją zawartość w ramce iframe, więc stylizacja rodzica jest ignorowana. Aby stylizować dane wyjściowe narzędzia, wpisz tutaj adres URL pliku CSS, a ramka iframe pobierze i zastosuje go w pliku <link>.",
     "platform.jwksUrl": "JWKS URL",
     "platform.jwksUrl.description": "Upewnij się, że ten adres URL jest publicznie dostępny. Jeśli nie są odpowiednio skonfigurowane, niektóre LMSy podają adres URL, który nie uwzględnia takich rzeczy jak odwrotne serwery proxy.",
     "platform.noReservesMessage": "Komunikat „Brak rezerwacji”",

@@ -16,10 +16,10 @@
     "platform.oidcAuthUrl": "OIDC authentication URL",
     "platform.oidcAuthUrl.description": "Ujistěte se, že tato adresa URL je veřejně přístupná. Pokud nejsou správně nakonfigurovány, poskytují některé LMS adresy URL, které neberou v úvahu věci jako reverzní proxy.",
     "platform.searchUrl": "Adresa URL veřejného vyhledávání",
-    "platform.searchUrl.description": "<div>Veřejná adresa URL pro vyhledávání se použije pro vytvoření odkazů, pokud není pro vyhrazenou položku definován elektronický přístup. Do URL lze vložit některé proměnné, např. https://find.mylibrary.edu?query=[BARCODE]. Podporované proměnné jsou:</div><ul><li>[BARCODE] - čárový kód položky.</li><li>[INSTANCE_HRID] - HRID instance</li></ul>",
+    "platform.searchUrl.description": "<div>Veřejná adresa URL pro vyhledávání se použije pro vytvoření odkazů, pokud není pro vyhrazenou jednotku definován elektronický přístup. Do URL lze vložit některé proměnné, např. https://find.mylibrary.edu?query=[BARCODE]. Podporované proměnné jsou:</div><ul><li>[BARCODE] - čárový kód jednotky.</li><li>[INSTANCE_HRID] - HRID instance</li></ul>",
     "errors.issuersMustBeUnique": "Platforma s tímto emitentem již existuje. Emitenti musí být jedineční.",
     "platform.boxDirectDownload": "Transform reserve URLs including \"box.com\" to direct-download using the Box API",
-    "platform.boxDirectDownload.description": "Když má položka elektronický přístup a adresa URL obsahuje „box.com“, modul LTI edge může přepsat odkaz tak, aby transparentně nabídl položku ke stažení, místo aby uživatele spojoval s box.com. Pamatujte, že modul edge musí být spuštěn s platným přístupovým tokenem pro rozhraní API Box, další podrobnosti najdete v dokumentaci kurzy modulu edge-lti.",
+    "platform.boxDirectDownload.description": "Když má jednotka elektronický přístup a adresa URL obsahuje „box.com“, modul LTI edge může přepsat odkaz tak, aby transparentně nabídl jednotku ke stažení, místo aby uživatele spojoval s box.com. Pamatujte, že modul edge musí být spuštěn s platným přístupovým tokenem pro rozhraní API Box, další podrobnosti najdete v dokumentaci kurzy modulu edge-lti.",
     "yes": "Ano",
     "no": "No"
 }

@@ -13,6 +13,7 @@
   "scripts": {
     "start": "stripes serve",
     "build": "stripes build --output ./output",
+    "build-mod-descriptor": "stripes mod descriptor --full --strict | jq '.[]' > module-descriptor.json ",
     "lint": "eslint src"
   },
   "devDependencies": {

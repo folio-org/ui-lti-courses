@@ -6,7 +6,7 @@
     "platform": "LTI平台",
     "platform.issuer": "发行者",
     "platform.clientId": "客户ID",
-    "platform.clientId.description": "在向平台/ LMS注册LTI 1.3工具之后（例如，从Sakai内部），平台通常会为该工具生成一个客户端ID。在这里插入。如果LMS允许配置客户端ID，请在此处输入相同的值。",
+    "platform.clientId.description": "在您向平台/LMS註册LTI 1.3工具後（例如，從Sakai内部），平台通常會為該工具產生一個客户端ID。在這裡填入這個客戶端ID。如果LMS允許配置客户端ID，請在此處輸入相同的值。",
     "platform.cssUrl": "CSS URL",
     "platform.cssUrl.description": "該工具在 iframe 中呈現其內容，因此忽略上層的母樣式。要設定工具輸出的樣式，請在此處輸入 CSS 文件的 URL，iframe 將獲取並將其套用到<link>中。",
     "platform.jwksUrl": "JWKS URL",

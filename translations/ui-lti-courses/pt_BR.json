@@ -15,7 +15,7 @@
     "platform.noReservesMessage.description": "Quando um curso não tem reservas atuais, esta mensagem será exibida.",
     "platform.oidcAuthUrl": "URL de autenticação do OIDC",
     "platform.oidcAuthUrl.description": "Verifique se este URL está acessível ao público. A menos que estejam configurados corretamente, alguns AVAs fornecem um URL que não é responsável por questões como proxies reversos.",
-    "platform.searchUrl": "URL de pesquisa pública",
+    "platform.searchUrl": "URL de busca pública",
     "platform.searchUrl.description": "<div>A URL de pesquisa pública será usado para criar links quando nenhum acesso eletrônico estiver definido para o item reservado. Algumas variáveis podem ser inseridas na URL, por exemplo, https://find.mylibrary.edu?query=[BARCODE]. As variáveis suportadas são:</div> <ul><li>[BARCODE] - O código de barras do item</li> <li>[INSTANCE_HRID] - O HRID da instância</li></ul>",
     "errors.issuersMustBeUnique": "Já existe uma plataforma com este emissor. Os emissores devem ser únicos.",
     "platform.boxDirectDownload": "Transformar URLs de reserva, incluindo \"box.com\", para carregar diretamente utilizando a API da Box",
